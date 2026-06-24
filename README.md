@@ -1,36 +1,81 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 🌸 Bloomly AI
 
-## Getting Started
+Bloomly AI is an AI-powered marketing assistant for small businesses.
 
-First, run the development server:
+Users can enter information about their business, and Bloomly generates:
+
+* ✨ Social media posts
+* 🏷️ Relevant hashtags
+* 💡 Content ideas
+
+## 🚀 Live Demo
+
+https://your-vercel-url.vercel.app
+
+## 📸 Preview
+
+(Add screenshots here later)
+
+## Features
+
+* Business information form
+* AI-generated Instagram content
+* Hashtag suggestions
+* Content idea generation
+* Responsive UI
+* Deployed on Vercel
+
+## Tech Stack
+
+* Next.js
+* TypeScript
+* Tailwind CSS
+* Gemini API
+* GitHub
+* Vercel
+
+## Installation
+
+Clone the repository:
+
+```bash
+git clone https://github.com/kashvi4k/bloomly-ai.git
+```
+
+Install dependencies:
+
+```bash
+npm install
+```
+
+Create a `.env.local` file:
+
+```env
+GEMINI_API_KEY=your_api_key_here
+```
+
+Run locally:
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Why Bloomly AI?
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+Small businesses often struggle with creating consistent marketing content.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+Bloomly AI helps business owners quickly generate engaging social media content without needing a marketing agency or content strategist.
 
-## Learn More
+## Future Improvements
 
-To learn more about Next.js, take a look at the following resources:
+* Tone Selection
+* Platform-specific content generation
+* Content calendar generation
+* Marketing strategy recommendations
+* Authentication and saved history
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Author
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+Kashvi Khandelwal
 
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+GitHub: https://github.com/kashvi4k
