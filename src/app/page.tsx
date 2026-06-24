@@ -41,6 +41,10 @@ export default function Home() {
 
       const data = await response.json();
 
+      if (!data.success) {
+        throw new Error(data.error || "Failed to generate content");
+      }
+
       const cleaned = data.data
         .replace(/```json/g, "")
         .replace(/```/g, "")

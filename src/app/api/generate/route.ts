@@ -41,13 +41,17 @@ Return ONLY valid JSON in this format:
     const response = await ai.models.generateContent({
       model: "gemini-2.5-flash",
       contents: prompt,
+      config: {
+        responseMimeType: "application/json",
+      },
     });
-
     return Response.json({
       success: true,
       data: response.text,
     });
   } catch (error) {
+    console.error("BLOOMLY ERROR:", error);
+
     return Response.json({
       success: false,
       error: String(error),
